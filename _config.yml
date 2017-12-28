@@ -1,2 +1,3 @@
 name: Jacque
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
