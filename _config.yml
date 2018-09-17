@@ -1,3 +1,48 @@
-name: Jacque
+title: My personal blog -  Jacqueline Garcia
+email: jackieg.017@berkeley.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/jacque" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Jacqueline Garcia
+author-pic: jacque-face.jpg
+about-author: My name is Jacqueline Garcia. I am originally from Compton, California, but now live in Berkeley, California. I am a Software Engineer; recent UC Berkeley grad. My favorite part about the Bay Area are the beautiful trails and views. I love exploring new restaurants, cities, and trails. I love staying active through combat sports, lifting, and running.
+
+
+# Contact links
+email: jackieg.017@berkeley.edu
+website: jackieg017.github.io
+linkedin: jacqueuqcaj
+github: jackieg017 # Add your Github handle
+twitter: '@jacqueuqcaj' # Add your Twitter handle
+facebook: 'jaqueline.garcia.351' # Add your Facebook handle
+instagram: 'la.jacque.garcia' # Add your Instagram handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
