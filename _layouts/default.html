@@ -1,31 +1,9 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<title>{{ page.title }}</title>
-	<!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-
+<html lang="en">
+{% include head.html %}
 <body>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/blog">Blog</a></li>
-		</ul>
-	</nav>
-	<div class="container">
-
-		{{ content }}
-
-	</div><!-- /.container -->
-	<footer>
-		<ul>
-			<li><a href="mailto:jackieg.017@berkeley.edu">email</a></li>
-			<li><a href="https://github.com/jackieg017">github.com/jackieg017</a></li>
-		</ul>
-	</footer>
+  {{ content }}
+  {% include javascripts.html %}
+  {% include analytics.html %}
 </body>
-
 </html>
