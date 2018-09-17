@@ -1,7 +1,7 @@
 # My Personal Wesbite
 
 I created this website to write about meaningful life experiences.
-[Check it out](http://jackieg017.github.io)
+[Check it out!](http://jackieg017.github.io)
 
 ## Inspiration:
 
