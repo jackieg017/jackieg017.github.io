@@ -6,4 +6,4 @@ I created this website to write about meaningful life experiences.
 ## Inspiration:
 
 - [Jekyll](https://github.com/jekyll/jekyll/)
-- [Adam Blog](https://artemsheludko.github.io/adam-blog/)
+- [Adam Blog](https://github.com/artemsheludko/adam-blog)
